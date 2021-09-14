@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mi pagina web como portafolio de trabajo">
+    <meta name="keywords"  content="Web development, diseño web, paginas web, css, html5">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>    
+<body>
+
+    <!-- Navbar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/portafolio.html">PORTAFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/html/submenu.html">SUB MENU</a>
+              </li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Home -->
+
+    <section id="home" class="home">
+        <div class="home__background"></div>
+        <picture>
+            <source type="image/webp" srcset="./assets/profile.webp" />
+            <source type="image/png" srcset="./assets/profile.png" />
+            <img class="home__profile" alt="picture profile" />
+        </picture>
+        <div class="home__description">
+
+            <span class="home__title--primary">Hola!</span>
+            <h1 class="home__title">Mi nombre es Paul Rojas</h1>
+            <span class="home__title--secondary">soy estudiante de CH</span><br>
+            <hr id="base">
+            <hr color="black" id="about">
+          </div>
+    </section>
+
+    <!-- About -->
+
+    <div id="container" class="about">
+        <div class="container__div">
+            <h2 class="titulo">About</h2>
+            <h3 class="subtitulo">Quien Soy</h3>
+            <p class="p1">Soy un desarrollador web aun aprendiendo en coderhouse html css entre otros.</p>
+        </div>
+
+        <div class="skills">
+            <h2 class="titulo">My skills</h2>
+            <img src="assets/html.png" alt="Logo de html5" class="skills__img">
+            <img src="assets/css.png" alt="logo de css" class="skills__img">
+        </div>
+    </div>
+    <div class="buton">
+        <button type="button" class="buton1" >Dowload CV</button>
+    </div>
+    <hr id="portafolio">
+
+    <!-- Portfolio -->
+
+    <h2 class="titulo">Portfolio</h2>
+    <div class="grid">
+        <img src="assets/nada.png" alt="" class="relleno relleno--index">
+        <img src="assets/nada.png" alt="" class="relleno relleno--index">
+        <img src="assets/nada.png" alt="" class="relleno relleno--index">
+        <img src="assets/nada.png" alt="" class="relleno relleno--index">
+        <img src="assets/nada.png" alt="" class="relleno relleno--index">
+        <img src="assets/nada.png" alt="" class="relleno relleno--index">
+    </div>
+
+    <!-- Contact -->
+
+    <h2 class="titulo" id="contact">Contact</h2>
+    <div class="grid grid--contac">
+        <img src="assets/gmail.png" alt="" class="relleno">
+        <img src="assets/github.png" alt="" class="relleno">
+        <img src="assets/linkedlin.png" alt="" class="relleno">
+    </div>
+    <!-- Footer -->
+
+    <div class="container-fluid bg-black text-light text-center p-3" >
+        <span>All Rights Reserved</span>
+    </div>
+
+
+    <!-- JS -->
+    <script src="js\indes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
