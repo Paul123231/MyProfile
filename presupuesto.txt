@@ -1,6 +1,0 @@
-Diseño de HTML5 y CSS3 = 30$
-SEO                    = 20$
-Imagenes y videos      = 25$
-Hosting                = 10$
-
-Total                  = 85$
