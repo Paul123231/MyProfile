@@ -236,6 +236,15 @@ section {
   text-align: center;
 }
 
+.button {
+  padding-left: 100px;
+}
+
+.buton {
+  margin-top: 50px;
+  margin-bottom: 167px;
+}
+
 /* Portafolio */
 .container .titulo {
   font-size: 60px;
